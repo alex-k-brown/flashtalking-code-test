@@ -1,0 +1,9 @@
+<h2>T-Shirts</h2>
+<div class="back"> 
+	<a href="#"><i class="fa fa-arrow-left"></i>Back to Categories</a>
+</div>
+<div class="product" ng-repeat="Data in tshirtStyles.Data">
+	<h4>{{ Data.title }}</h4>
+	<p class="price">{{ Data.price | currency }}</p>
+	<img src="{{ Data.image }}">
+</div>

@@ -1,0 +1,428 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, ../sass/_main.scss */
+.main {
+  padding: 100px 10%;
+  text-align: center;
+  z-index: 100;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  /*category*/
+  /*jackets-img*/
+  /*tshirts-img*/
+  /*shoes-img*/
+  /*hats-img*/
+  /*category-img*/
+  /*product*/
+  /*back*/
+  /*a*/
+  /*a:hover*/
+  /*-------------------- LARGE SCREEN - 1500PX --------------------*/
+  /*1500px*/
+  /*-------------------- LARGE SCREEN - 2000PX --------------------*/
+  /*2000px*/
+  /*-------------------- TABLET - 770PX --------------------*/
+  /*770px*/
+  /*-------------------- PHONE - 450PX --------------------*/
+  /*450px*/
+  /*-------------------- SMALL PHONE - 320PX --------------------*/
+  /*320px*/
+}
+/* line 8, ../sass/_main.scss */
+.main .category {
+  width: 17%;
+  height: 260px;
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  text-align: center;
+  margin: 50px 2%;
+  padding: 20px 2%;
+  vertical-align: top;
+  /*hover*/
+  /*h3*/
+}
+/* line 18, ../sass/_main.scss */
+.main .category:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+/* line 23, ../sass/_main.scss */
+.main .category h3 {
+  padding: 120px 0 0;
+  color: white;
+}
+/* line 30, ../sass/_main.scss */
+.main .jackets-img {
+  background: url("../img/jacket.jpg");
+}
+/* line 34, ../sass/_main.scss */
+.main .tshirts-img {
+  background: url("../img/tshirt.jpg");
+}
+/* line 38, ../sass/_main.scss */
+.main .shoes-img {
+  background: url("../img/shoe.jpg");
+}
+/* line 42, ../sass/_main.scss */
+.main .hats-img {
+  background: url("../img/hat.jpg");
+}
+/* line 46, ../sass/_main.scss */
+.main .category-img {
+  height: 260px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 54, ../sass/_main.scss */
+.main .product {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px 2%;
+  margin: 50px 1%;
+  display: inline-block;
+  width: 13%;
+  color: white;
+  vertical-align: top;
+  height: 250px;
+  /*img*/
+  /*p*/
+  /*small-product*/
+}
+/* line 64, ../sass/_main.scss */
+.main .product img {
+  width: 100%;
+  padding: 10px 0 0;
+}
+/* line 70, ../sass/_main.scss */
+.main .product p {
+  padding: 10px 0 0;
+}
+/* line 75, ../sass/_main.scss */
+.main .product .small-product {
+  padding: 50px 0 0;
+}
+/* line 81, ../sass/_main.scss */
+.main .back {
+  width: 100%;
+  display: block;
+  text-align: left;
+  padding: 25px 0 0;
+}
+/* line 89, ../sass/_main.scss */
+.main a {
+  text-decoration: none;
+  color: #87acf7;
+}
+/* line 95, ../sass/_main.scss */
+.main a:hover {
+  text-decoration: none;
+}
+@media (min-width: 1500px) {
+  /* line 1, ../sass/_main.scss */
+  .main {
+    /*category*/
+    /*category-img*/
+    /*product*/
+  }
+  /* line 103, ../sass/_main.scss */
+  .main .category {
+    margin: 100px 2%;
+    height: 360px;
+    /*h3*/
+  }
+  /* line 107, ../sass/_main.scss */
+  .main .category h3 {
+    padding: 180px 0 0;
+  }
+  /* line 113, ../sass/_main.scss */
+  .main .category-img {
+    height: 360px;
+  }
+  /* line 118, ../sass/_main.scss */
+  .main .product {
+    height: 350px;
+    margin: 100px 1%;
+  }
+}
+@media (min-width: 2000px) {
+  /* line 1, ../sass/_main.scss */
+  .main {
+    /*product*/
+  }
+  /* line 128, ../sass/_main.scss */
+  .main .product {
+    height: 450px;
+  }
+}
+@media (max-width: 770px) {
+  /* line 1, ../sass/_main.scss */
+  .main {
+    /*h2*/
+    /*category, product*/
+    /*product*/
+    /*back*/
+  }
+  /* line 137, ../sass/_main.scss */
+  .main h2 {
+    margin: 0 0 25px;
+  }
+  /* line 142, ../sass/_main.scss */
+  .main .category, .main .product {
+    width: 39%;
+    margin: 25px 2% 0;
+    padding: 20px 3%;
+  }
+  /* line 149, ../sass/_main.scss */
+  .main .product {
+    height: 350px;
+  }
+  /* line 154, ../sass/_main.scss */
+  .main .back {
+    padding: 0 0 25px;
+  }
+}
+@media (max-width: 450px) {
+  /* line 1, ../sass/_main.scss */
+  .main {
+    padding: 50px 10% 100px;
+    /*category, product*/
+    /*product*/
+    /*back*/
+    /*h2*/
+  }
+  /* line 165, ../sass/_main.scss */
+  .main .category, .main .product {
+    width: 85%;
+    padding: 20px 6%;
+  }
+  /* line 171, ../sass/_main.scss */
+  .main .product {
+    height: 370px;
+  }
+  /* line 176, ../sass/_main.scss */
+  .main .back {
+    padding: 0 0 50px;
+  }
+  /* line 181, ../sass/_main.scss */
+  .main h2 {
+    margin: 0 0 50px;
+  }
+}
+@media (max-width: 320px) {
+  /* line 1, ../sass/_main.scss */
+  .main {
+    padding: 50px 5% 100px;
+  }
+}
+
+/*main*/
+/* line 1, ../sass/_html.scss */
+html {
+  font-size: 16px;
+}
+
+/*html*/
+/*-------------------- LARGE SCREEN - 1500PX --------------------*/
+@media (min-width: 1500px) {
+  /* line 9, ../sass/_html.scss */
+  html {
+    font-size: 24px;
+  }
+
+  /*html*/
+}
+/*1500px*/
+/*-------------------- TABLET - 770PX --------------------*/
+@media (max-width: 770px) {
+  /* line 18, ../sass/_html.scss */
+  html {
+    font-size: 20px;
+  }
+
+  /*html*/
+}
+/*770px*/
+/* line 1, ../sass/_background.scss */
+.background {
+  background: url("../img/milky-way-923801.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+/*background*/
+/* line 1, ../sass/text.scss */
+h1 {
+  font-size: 4rem;
+  color: white;
+  text-align: left;
+}
+
+/*h1*/
+/* line 8, ../sass/text.scss */
+h2 {
+  font-size: 2.75rem;
+  color: lightgray;
+  text-align: left;
+}
+
+/*h2*/
+/* line 15, ../sass/text.scss */
+h3 {
+  font-size: 2rem;
+}
+
+/*h3*/
+/* line 20, ../sass/text.scss */
+h4 {
+  font-size: 1.8rem;
+}
+
+/*h4*/
+/*-------------------- SMALL PHONE - 320PX --------------------*/
+@media (max-width: 320px) {
+  /* line 28, ../sass/text.scss */
+  h1 {
+    font-size: 3rem;
+  }
+
+  /*h1*/
+  /* line 33, ../sass/text.scss */
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  /*h2*/
+}
+/*320px*/
