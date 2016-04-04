@@ -1,6 +1,9 @@
-<h2>Categories</h2>
-<a href="#/{{ Data.id }}" class="category" ng-repeat="Data in productCategories.Data">
-  <div class="category-img {{ Data.id }}-img">
-  	<h3>{{ Data.title }}</h3>
-  </div>
+<h2>{{ category | uppercase }}</h2>
+<div class="back"> 
+	<a href="#"><i class="fa fa-arrow-left"></i>Back to CATEGORIES</a>
+</div>
+<a href="#/{{ category }}/{{ Data.id }}" class="product" ng-repeat="Data in styles.Data">
+	<h4>{{ Data.title }}</h4>
+	<p class="price">{{ Data.price | currency }}</p>
+	<img class="{{ category }}-product small-product" ng-src="{{ Data.image }}">
 </a>

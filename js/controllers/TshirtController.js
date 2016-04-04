@@ -1,5 +1,10 @@
-app.controller('TshirtController', ['$scope', 'tshirt', function($scope, tshirt) {
+app.controller('TshirtController', ['$scope', 'tshirt', '$routeParams', function($scope, tshirt, $routeParams) {
   tshirt.success(function(data) {
-    $scope.tshirtStyles = data;
+    $scope.styles = data;
+    $scope.detail = data.Data.find(findReference);
+    function findReference(single) {
+    	return single.id === $routeParams.id;
+    };
+    $scope.category = "tshirts";
   });
 }]);

@@ -1,1 +1,8 @@
-<h3>Single Product</h3>
+<div class="back">
+	<a href="#/{{ category }}"><i class="fa fa-arrow-left"></i>Back to {{ category | uppercase }}</a>
+</div>
+<div class="single-product">
+	<h3>{{ detail.title }}</h3>
+	<p>{{ detail.price | currency }}</p>
+	<img ng-src="{{ detail.image }}">
+</div>

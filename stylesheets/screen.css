@@ -135,6 +135,7 @@ table {
   z-index: 100;
   position: relative;
   font-family: 'Open Sans', sans-serif;
+  /*a*/
   /*category*/
   /*jackets-img*/
   /*tshirts-img*/
@@ -142,6 +143,7 @@ table {
   /*hats-img*/
   /*category-img*/
   /*product*/
+  /*single-product*/
   /*back*/
   /*a*/
   /*a:hover*/
@@ -157,6 +159,10 @@ table {
   /*320px*/
 }
 /* line 8, ../sass/_main.scss */
+.main a {
+  cursor: pointer;
+}
+/* line 13, ../sass/_main.scss */
 .main .category {
   width: 17%;
   height: 260px;
@@ -169,39 +175,39 @@ table {
   /*hover*/
   /*h3*/
 }
-/* line 18, ../sass/_main.scss */
+/* line 23, ../sass/_main.scss */
 .main .category:hover {
   background: rgba(255, 255, 255, 0.6);
 }
-/* line 23, ../sass/_main.scss */
+/* line 28, ../sass/_main.scss */
 .main .category h3 {
   padding: 120px 0 0;
   color: white;
 }
-/* line 30, ../sass/_main.scss */
+/* line 35, ../sass/_main.scss */
 .main .jackets-img {
   background: url("../img/jacket.jpg");
 }
-/* line 34, ../sass/_main.scss */
+/* line 39, ../sass/_main.scss */
 .main .tshirts-img {
   background: url("../img/tshirt.jpg");
 }
-/* line 38, ../sass/_main.scss */
+/* line 43, ../sass/_main.scss */
 .main .shoes-img {
   background: url("../img/shoe.jpg");
 }
-/* line 42, ../sass/_main.scss */
+/* line 47, ../sass/_main.scss */
 .main .hats-img {
   background: url("../img/hat.jpg");
 }
-/* line 46, ../sass/_main.scss */
+/* line 51, ../sass/_main.scss */
 .main .category-img {
   height: 260px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 54, ../sass/_main.scss */
+/* line 59, ../sass/_main.scss */
 .main .product {
   background: rgba(255, 255, 255, 0.3);
   padding: 20px 2%;
@@ -211,36 +217,67 @@ table {
   color: white;
   vertical-align: top;
   height: 250px;
+  /*hover*/
   /*img*/
   /*p*/
   /*small-product*/
+  /*shoes-img, hats-img*/
 }
-/* line 64, ../sass/_main.scss */
+/* line 69, ../sass/_main.scss */
+.main .product:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+/* line 74, ../sass/_main.scss */
 .main .product img {
   width: 100%;
   padding: 10px 0 0;
 }
-/* line 70, ../sass/_main.scss */
+/* line 80, ../sass/_main.scss */
 .main .product p {
   padding: 10px 0 0;
 }
-/* line 75, ../sass/_main.scss */
+/* line 85, ../sass/_main.scss */
 .main .product .small-product {
+  padding: 10px 0 0;
+}
+/* line 90, ../sass/_main.scss */
+.main .product .shoes-product, .main .product .hats-product {
   padding: 50px 0 0;
 }
-/* line 81, ../sass/_main.scss */
+/* line 96, ../sass/_main.scss */
+.main .single-product {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 50px 5%;
+  margin: 50px 0 0;
+  /*p*/
+  /*h3*/
+}
+/* line 101, ../sass/_main.scss */
+.main .single-product p {
+  padding: 25px 0 0;
+  font-size: 2rem;
+}
+/* line 107, ../sass/_main.scss */
+.main .single-product h3 {
+  font-size: 4rem;
+}
+/* line 111, ../sass/_main.scss */
+.main .single-product img {
+  width: 100%;
+}
+/* line 116, ../sass/_main.scss */
 .main .back {
   width: 100%;
   display: block;
   text-align: left;
   padding: 25px 0 0;
 }
-/* line 89, ../sass/_main.scss */
+/* line 124, ../sass/_main.scss */
 .main a {
   text-decoration: none;
   color: #87acf7;
 }
-/* line 95, ../sass/_main.scss */
+/* line 130, ../sass/_main.scss */
 .main a:hover {
   text-decoration: none;
 }
@@ -250,25 +287,30 @@ table {
     /*category*/
     /*category-img*/
     /*product*/
+    /*single-product*/
   }
-  /* line 103, ../sass/_main.scss */
+  /* line 138, ../sass/_main.scss */
   .main .category {
     margin: 100px 2%;
     height: 360px;
     /*h3*/
   }
-  /* line 107, ../sass/_main.scss */
+  /* line 142, ../sass/_main.scss */
   .main .category h3 {
     padding: 180px 0 0;
   }
-  /* line 113, ../sass/_main.scss */
+  /* line 148, ../sass/_main.scss */
   .main .category-img {
     height: 360px;
   }
-  /* line 118, ../sass/_main.scss */
+  /* line 153, ../sass/_main.scss */
   .main .product {
     height: 350px;
     margin: 100px 1%;
+  }
+  /* line 159, ../sass/_main.scss */
+  .main .single-product {
+    margin: 100px 0 0;
   }
 }
 @media (min-width: 2000px) {
@@ -276,7 +318,7 @@ table {
   .main {
     /*product*/
   }
-  /* line 128, ../sass/_main.scss */
+  /* line 168, ../sass/_main.scss */
   .main .product {
     height: 450px;
   }
@@ -289,21 +331,21 @@ table {
     /*product*/
     /*back*/
   }
-  /* line 137, ../sass/_main.scss */
+  /* line 177, ../sass/_main.scss */
   .main h2 {
     margin: 0 0 25px;
   }
-  /* line 142, ../sass/_main.scss */
+  /* line 182, ../sass/_main.scss */
   .main .category, .main .product {
     width: 39%;
     margin: 25px 2% 0;
     padding: 20px 3%;
   }
-  /* line 149, ../sass/_main.scss */
+  /* line 189, ../sass/_main.scss */
   .main .product {
     height: 350px;
   }
-  /* line 154, ../sass/_main.scss */
+  /* line 194, ../sass/_main.scss */
   .main .back {
     padding: 0 0 25px;
   }
@@ -316,23 +358,32 @@ table {
     /*product*/
     /*back*/
     /*h2*/
+    /*single-product*/
   }
-  /* line 165, ../sass/_main.scss */
+  /* line 205, ../sass/_main.scss */
   .main .category, .main .product {
     width: 85%;
     padding: 20px 6%;
   }
-  /* line 171, ../sass/_main.scss */
+  /* line 211, ../sass/_main.scss */
   .main .product {
     height: 370px;
   }
-  /* line 176, ../sass/_main.scss */
+  /* line 216, ../sass/_main.scss */
   .main .back {
     padding: 0 0 50px;
   }
-  /* line 181, ../sass/_main.scss */
+  /* line 221, ../sass/_main.scss */
   .main h2 {
     margin: 0 0 50px;
+  }
+  /* line 226, ../sass/_main.scss */
+  .main .single-product {
+    /*h3*/
+  }
+  /* line 228, ../sass/_main.scss */
+  .main .single-product h3 {
+    font-size: 3rem;
   }
 }
 @media (max-width: 320px) {

@@ -5,6 +5,11 @@
   position: relative;
   font-family: 'Open Sans', sans-serif;
 
+  a {
+    cursor: pointer;
+
+  }/*a*/
+
   .category {
 	width: 17%;
 	height: 260px;
@@ -61,6 +66,11 @@
 	vertical-align: top;
 	height: 250px;
 
+	&:hover {
+	  background: rgba(255, 255, 255, .6);
+
+	}/*hover*/
+
 	img {
 	  width: 100%;
 	  padding: 10px 0 0;
@@ -73,10 +83,35 @@
 	}/*p*/
 
 	.small-product {
-	  padding: 50px 0 0;
+	  padding: 10px 0 0;
 
 	}/*small-product*/
+
+	.shoes-product, .hats-product {
+	  padding: 50px 0 0;
+
+	}/*shoes-img, hats-img*/
   }/*product*/
+
+  .single-product {
+  	background: rgba(255, 255, 255, .3);
+  	padding: 50px 5%;
+  	margin: 50px 0 0;
+
+  	p {
+	  padding: 25px 0 0;
+	  font-size: 2rem;
+
+	}/*p*/
+
+	h3 {
+	  font-size: 4rem;
+
+	}/*h3*/
+	 img {
+	 	width: 100%;
+	 }
+  }/*single-product*/
 
   .back {
 	width: 100%;
@@ -120,6 +155,11 @@
 	  margin: 100px 1%;
 
 	}/*product*/
+
+	.single-product {
+	  margin: 100px 0 0;
+
+	}/*single-product*/
   }/*1500px*/
 
   /*-------------------- LARGE SCREEN - 2000PX --------------------*/
@@ -182,6 +222,14 @@
 	  margin: 0 0 50px;
 
 	}/*h2*/
+
+	.single-product {
+
+	  h3 {
+	  	font-size: 3rem;
+
+	  }/*h3*/
+	}/*single-product*/
   }/*450px*/
 
   /*-------------------- SMALL PHONE - 320PX --------------------*/
